@@ -1,14 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="stayle.css" rel="stylesheet" type="text/css">
+    <link href="adaptive.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<ul>
-    <li>1</li>
-    <li>1</li>
-    <li>1</li>
-</ul>
+<form autocomplete="off">
+    <label for="first-name">First name:</label>
+    <input type="text" id="first-name" placeholder="Enter first name">
+</form>
+<form autocomplete="on">
+    <label for="last-name">Last name</label>
+    <input type="text" id="last-name" placeholder="Enter last name">
+</form>
+<form autocomplete="on">
+    <label for="user-email">Email:</label>
+    <input type="email" id="user-email">
+</form>
+<form autocomplete="on">
+    <label for="messege">Message:</label>
+    <textarea id="messege"></textarea>
+</form>
+<form>
+    <label>Gender</label>
+    <select>
+        <option value="1">Male</option>
+    </select>
+</form>
+<form autocomplete="on">
+    <label for="user-age">Age:</label>
+    <input type="number" id="user-age">
+</form>
+<form>
+    <label for="birthday">Birthday</label>
+        <input type="week" id="birthday">
+</form>
+<form>
+    <input type="submit">
+</form>
+
+<div class="container">
+    <div class="form">
+        <form>
+            <label for="user-name">Name:</label>
+            <input type="text" id="user-name" class="input">
+        </form>
+        <form>
+            <label for="two-user-email">Email:</label>
+            <input type="text" id="two-user-email" class="input">
+        </form>
+        <form>
+            <label for="two-message">Message</label>
+            <textarea id="two-message" class="input"></textarea>
+        </form>
+        <form>
+            <input type="submit" class="submit">
+        </form>
+    </div>
+</div>
+
 </body>
-</html>
